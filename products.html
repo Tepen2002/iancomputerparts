@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products - IAN Computer Parts and Accessories</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-flex">
+      <img src="IC LOGO.png" alt="IAN Computer Parts Logo" class="logo-inline" />
+      <div class="header-text">
+        <h1>IAN Computer Parts & Accessories</h1>
+        <p>Your Trusted Computer Parts & Appliances Store</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html">Home</a> 
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- PRODUCTS SECTION -->
+  <section class="products container">
+
+    <h2 class="section-heading">Our Products</h2>
+
+    <!-- TOOLBAR (NOW WORKS WITH JS) -->
+    <div class="products-toolbar">
+      <input id="searchInput" class="search" type="text" placeholder="Search products..." />
+      <select id="categoryFilter" class="filter">
+        <option value="">All Categories</option>
+        <option value="laptops">Laptops</option>
+        <option value="parts">Computer Parts</option>
+        <option value="appliances">Appliances</option>
+        <option value="audio">Audio / Speakers</option>
+      </select>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-grid">
+
+      <!-- ===== LAPTOPS ===== -->
+      <div class="product-card" data-category="laptops" data-name="Acer Aspire Lite 14-32P-C5PN">
+        <span class="tag">Laptop</span>
+        <img src="VST-ACERAL14-32P-C5PN-1200x675.jpg" alt="Acer Aspire Lite 14-32P-C5PN" />
+        <h3>Acer Aspire Lite 14-32P-C5PN</h3>
+        <p>A lightweight 14" laptop with efficient performance and fast storage—built for everyday productivity and portability.</p>
+        <p class="price"><strong>₱23,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="Acer Aspire Lite 14-32P-C5PN">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="laptops" data-name="Acer Aspire Lite 14-32P-37PL">
+        <span class="tag">Laptop</span>
+        <img src="VST-ACERL14-32P-37PL-1200X675.jpg" alt="Acer Aspire Lite 14-32P-37PL" />
+        <h3>Acer Aspire Lite 14-32P-37PL</h3>
+        <p>A slim 14" laptop with reliable performance, fast storage, and all-day portability for everyday use.</p>
+        <p class="price"><strong>₱28,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="Acer Aspire Lite 14-32P-37PL">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="laptops" data-name="Acer Aspire Lite 14-32P-34RE">
+        <span class="tag">Laptop</span>
+        <img src="197492_2025.jpg" alt="Acer Aspire Lite 14-32P-34RE" />
+        <h3>Acer Aspire Lite 14-32P-34RE</h3>
+        <p>Budget-friendly, portable laptop in Natural Titanium—great for browsing, schoolwork, and office applications.</p>
+        <p class="price"><strong>₱28,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="Acer Aspire Lite 14-32P-34RE">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="laptops" data-name="Acer Aspire Lite 14-32P-30XX">
+        <span class="tag">Laptop</span>
+        <img src="Acer Aspire Lite 14-32P-30XX.jpeg" alt="Acer Aspire Lite 14-32P-30XX" />
+        <h3>Acer Aspire Lite 14-32P-30XX</h3>
+        <p>Lightweight, budget-friendly laptop designed for general productivity tasks, schoolwork, and web browsing.</p>
+        <p class="price"><strong>₱29,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="Acer Aspire Lite 14-32P-30XX">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="laptops" data-name="Thunderobot T-Book 15A ULTIMATE">
+        <span class="tag">Laptop</span>
+        <img src="1.jpg" alt="Thunderobot T-Book 15A Ultimate" />
+        <h3>Thunderobot T-Book 15A ULTIMATE</h3>
+        <p>Productivity-focused laptop with Ryzen options, 16GB RAM, and 512GB SSD—built for work and study.</p>
+        <p class="price"><strong>₱32,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="Thunderobot T-Book 15A ULTIMATE">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="laptops" data-name="Thunderobot T-Book 15N">
+        <span class="tag">Laptop</span>
+        <img src="thunderobot-15N-01.jpeg" alt="Thunderobot T-Book 15N" />
+        <h3>Thunderobot T-Book 15N</h3>
+        <p>15.6" laptop with Ryzen or Intel options, 16GB RAM, and 512GB SSD—great for everyday productivity.</p>
+        <p class="price"><strong>₱39,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="Thunderobot T-Book 15N">Inquire</a>
+      </div>
+
+      <!-- ===== AUDIO / SPEAKERS ===== -->
+      <div class="product-card" data-category="audio" data-name="JBL Clip 5">
+        <span class="tag">Speaker</span>
+        <img src="JBL_Clip_5_Main_Black_2000x.jpeg" alt="JBL Clip 5" />
+        <h3>JBL CLIP 5</h3>
+        <p>Highly portable speaker with built-in carabiner—perfect for outdoor use.</p>
+        <p class="price"><strong>₱3,799</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="JBL CLIP 5">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="audio" data-name="JBL Xtreme 4">
+        <span class="tag">Speaker</span>
+        <img src="JBL_XTREME_4_HERO_BLUE_47139_X4_1.png" alt="JBL Xtreme 4" />
+        <h3>JBL XTREME 4</h3>
+        <p>Powerful sound with long battery life and IP67 water/dust protection—ideal outdoors.</p>
+        <p class="price"><strong>₱—</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="JBL XTREME 4">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="audio" data-name="JBL PartyBox Encore 2">
+        <span class="tag">Party Speaker</span>
+        <img src="LS_JBL_PARTYBOX_ENCORE_2_TWO_MICS_034_x2.jpeg" alt="JBL PartyBox Encore 2" />
+        <h3>JBL PARTYBOX ENCORE 2</h3>
+        <p>Portable party speaker with dynamic lights, strong bass and long battery life—great for karaoke.</p>
+        <p class="price"><strong>₱24,999</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="JBL PARTYBOX ENCORE 2">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="audio" data-name="JBL PartyBox 710">
+        <span class="tag">Party Speaker</span>
+        <img src="1_JBL_PARTYBOX_710_HERO_0031_x8.png" alt="JBL PartyBox 710" />
+        <h3>JBL PARTYBOX 710</h3>
+        <p>High-powered party speaker with strong bass and customizable light show—built for big events.</p>
+        <p class="price"><strong>₱40,500</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="JBL PARTYBOX 710">Inquire</a>
+      </div>
+
+      <div class="product-card" data-category="audio" data-name="JBL PartyBox Ultimate">
+        <span class="tag">Party Speaker</span>
+        <img src="JBLPartyboxUltimate_Main_600x.webp" alt="JBL PartyBox Ultimate" />
+        <h3>JBL PARTYBOX ULTIMATE</h3>
+        <p>Massive 1100W sound, powerful light show, Wi-Fi + Bluetooth—made for large spaces.</p>
+        <p class="price"><strong>₱75,990</strong></p>
+        <a href="#" class="btn inquire-btn" data-product="JBL PARTYBOX ULTIMATE">Inquire</a>
+      </div>
+
+    </div><!-- END product-grid -->
+
+    <!-- NO RESULTS -->
+    <p id="noResults" style="display:none; text-align:center; margin: 10px 0 40px; color:#555;">
+      No products found. Try another search.
+    </p>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2026 IAN Computer Parts and Accessories. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
